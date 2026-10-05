@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Giftson Jonathan — Geospatial Engineer &amp; Builder</title>
+<meta name="description" content="Geoinformatics engineer building at the intersection of GIS, technology and the real world.">
+<meta property="og:title" content="Giftson Jonathan — Geospatial Engineer & Builder">
+<meta property="og:description" content="I turn geospatial data into meaningful digital experiences.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230a1218' stroke='%2332d6c8' stroke-width='2'/%3E%3Cpath d='M2 16h28M16 2c-8 8-8 20 0 28M16 2c8 8 8 20 0 28' stroke='%2332d6c8' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;800&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Giftson Jonathan","jobTitle":"Geospatial Engineer & Builder"}</script>
+</head>
+<body>
+<a class="skip" href="#work">Skip to content</a>
+<nav class="nav" aria-label="Primary">
+  <a href="#top" class="logo">GJ</a>
+  <button class="menu" aria-expanded="false" aria-controls="links">Menu</button>
+  <div id="links" class="links"><a href="#work">Work</a><a href="#lab">Lab</a><a href="#about">About</a><a href="#resume">Resume</a><a href="#contact" class="pill">Contact</a></div>
+</nav>
+
+<header id="top" class="hero">
+  <div class="globe-wrap">
+    <canvas id="globe" aria-label="Interactive globe. Drag to rotate, scroll to zoom, select a marker to see a project." role="img" tabindex="0"></canvas>
+    <div id="pop" class="pop" hidden></div>
+    <p class="hint mono">Drag to rotate · scroll to zoom · tap a marker</p>
+  </div>
+  <div class="hero-text">
+    <p class="mono" id="coords"></p>
+    <h1>Giftson Jonathan</h1>
+    <p class="role">Geospatial Engineer &amp; Builder</p>
+    <p class="tag">Building at the intersection of GIS, technology and the real world.</p>
+    <p class="sub">I turn geospatial data into meaningful digital experiences.</p>
+    <div class="tags mono"><span>GIS</span><span>Geospatial data</span><span>Remote sensing</span><span>Web</span><span>Software</span><span>Data</span><span>AI</span></div>
+    <div class="cta"><a class="btn" href="#work">Explore my work</a><a class="btn ghost" href="#resume">View resume</a><a class="btn ghost" href="#contact">Contact</a></div>
+  </div>
+</header>
+
+<main>
+<section id="work" class="sec"><h2>Selected work</h2><div id="featured" class="grid"></div></section>
+<section id="lab" class="sec light"><h2>Everything I build</h2><p class="lede">The serious projects and the side experiments. Build log, unfiltered.</p>
+  <div id="filters" class="filters" role="group" aria-label="Filter projects"></div><div id="all" class="grid"></div></section>
+<section id="caps" class="sec"><h2>Capabilities</h2><div id="capgrid" class="caps"></div></section>
+<section id="experience" class="sec"><h2>Experience</h2><div id="exp" class="tl"></div></section>
+<section id="education" class="sec"><h2>Education</h2><div id="edu" class="tl"></div></section>
+<section id="achievements" class="sec"><h2>Certifications &amp; achievements</h2><div id="ach" class="ach"></div></section>
+<section id="about" class="sec light"><h2>About</h2>
+  <div class="about"><p class="big">Curious about geography. Obsessed with technology. Always building.</p>
+  <div><p>I'm a Geoinformatics Engineering student-turned-builder who likes maps for what they hide as much as what they show. Satellite imagery, spatial data and a good question are enough to get me started.</p>
+  <p>That curiosity pulled me into software: web apps, tools, data visualizations and plenty of experiments that began as "what if". I like turning raw geographic data into something people can actually use.</p>
+  <p class="mono ph">[PLACEHOLDER — edit this story in index.html to make it yours.]</p></div></div></section>
+<section id="resume" class="sec"><h2>Resume</h2><p class="lede">The full story in a page or two.</p>
+  <a id="dl" class="btn" href="#" download>Download resume</a></section>
+<section id="contact" class="sec contact"><h2>Let's build something.</h2><p class="lede">Have an interesting problem, project, or idea?</p>
+  <div class="cta"><a id="mail" class="btn" href="#">Get in touch</a><a id="gh" class="btn ghost" hidden>GitHub</a><a id="li" class="btn ghost" hidden>LinkedIn</a></div>
+  <form id="form" class="form"><label>Name<input name="n" required></label><label>Message<textarea name="m" rows="4" required></textarea></label><button class="btn" type="submit">Send via email</button></form>
+</section>
+</main>
+<footer class="foot mono">© Giftson Jonathan · Status: online</footer>
+<div id="detail" class="detail" role="dialog" aria-modal="true" aria-label="Project details" hidden></div>
+<script src="data/site.js"></script>
+<script src="main.js" defer></script>
+</body></html>
